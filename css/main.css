@@ -528,17 +528,29 @@ h6 {
 }
 
 #intro .img img {
-  width: 100%;
+  width: 80%;
   position: relative;
-  -webkit-mask: url(../img/clip.webp);
-  mask: url(../img/clip.webp);
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
+  /* -webkit-mask: url(../img/clip.webp); */
+  /* mask: url(../img/clip.webp);
+  -webkit-mask-repeat: no-repeat; */
+  /* mask-repeat: no-repeat;
   -webkit-mask-size: contain;
-  mask-size: contain;
+  mask-size: contain; */
   border-radius: 4px;
   cursor: grab;
 }
+
+/* .intro-img {
+
+  width: 100%;
+
+  height: auto;
+
+  border-radius: 50%; 
+
+  object-fit: cover; 
+} */
+
 
 #about {
   padding-top: 50px;
