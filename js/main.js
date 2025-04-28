@@ -794,7 +794,7 @@ setTimeout(() => {
 // Preloader text handling
 
 new Typewriter(".loading-text", {
-  strings: ["Lakshan Is Thinking..."],
+  strings: ["Aryaman Is Thinking..."],
   autoStart: true,
   delay: 50,
   cursor: "|",
@@ -881,84 +881,64 @@ form.addEventListener("submit", handleSubmit);
 
 const projectData = [
   {
-    title: "PassGen",
-    subTitle:
-      "You can easily generate secure and random passwords using this simple tool.",
-    thumbnail: "../img/projects-default.jpg",
+    title: "NotesMaker",
+    subTitle: "A full-stack app to create, edit, and manage notes.",
+    thumbnail: "../img/thumbnails/notes-maker-thumbnail.jpg",
     description:
-      "PassGen is a Python CLI tool for generating secure, random passwords from the command line. It allows you to easily create strong and unique passwords for your accounts, with a variety of customization options. Simply enter a few commands and PassGen will do the rest, providing you with a secure password to use with confidence. Fast and efficient, PassGen is the perfect tool for anyone who needs to generate passwords on the fly.",
-    techStack: ["Python"],
-    srcURL: "https://github.com/LakshanRukantha/PassGen",
+      "NotesMaker is a MERN stack application that allows users to sign up, log in, and create personal notes. The frontend is built using React and Vite, while the backend is powered by Node.js, Express, and MongoDB. The app is containerized using Docker and deployed via CI/CD using GitHub Actions and Docker Hub.",
+    techStack: ["React", "Node.js", "MongoDB", "Express", "Docker", "CI/CD"],
+    srcURL: "https://github.com/Aryaman028/NotesMaker", // replace with your actual GitHub URL
   },
   {
-    title: "CutLink",
-    subTitle: "Here you have full control over your links.",
-    thumbnail: "../img/thumbnails/cutlink-thumbnail.png",
+    title: "Furniture Designs Website",
+    subTitle: "A responsive website to explore modern furniture designs.",
+    thumbnail: "../img/thumbnails/furniture-thumbnail.jpg",
     description:
-      "CutLink is a modern and user-friendly web application built with React and Material UI. Our platform offers a complete solution for link shortening. With CutLink, you can create short, branded links that are easy to share. Try CutLink today and experience the power of a smarter link shortning platform!",
-    techStack: ["React", "MUI"],
-    srcURL: "https://cut-link.netlify.app/",
+      "A visually stunning furniture designs website featuring responsive layouts and dynamic content. This website showcases furniture products with smooth animations and a user-friendly interface. It's built using modern front-end tools and follows mobile-first design principles.",
+    techStack: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    srcURL: "https://github.com/Aryaman028/BackEnd-Project", // replace with your actual GitHub URL
   },
   {
-    title: "MindMate",
-    subTitle:
-      "Unlock the power of your mind with our AI-Driven mental health web application",
-    thumbnail: "../img/thumbnails/mindmate-thumbnail.png",
+    title: "N-Queen Visualizer",
+    subTitle: "Interactive visualization of the N-Queen problem.",
+    thumbnail: "../img/thumbnails/n-queen-thumbnail.webp",
     description:
-      "MindMate is a web application that provides mental health solutions using artificial intelligence powered by OpenAI. It is designed to help individuals struggling with mental health issues to improve their well-being and overall quality of life. The app provides personalized and confidential support to users by analyzing their symptoms, emotions, and behavior. MindMate uses advanced algorithms to identify patterns in user data and provide them with tailored recommendations for managing their mental health.",
-    techStack: ["Next.js", "React", "Node.js"],
-    srcURL: "https://mind-mate.vercel.app/",
+      "A JavaScript-based interactive visualizer for the classic N-Queen problem. Users can input a board size and watch the algorithm solve the puzzle in real time, helping to visualize backtracking and DSA concepts.",
+    techStack: ["JavaScript", "HTML", "CSS"],
+    srcURL: "https://n-queen-visualizer-murex.vercel.app/", // replace with your actual GitHub URL
+  },
+  // {
+  //   title: "Meeting Assistant",
+  //   subTitle: "Turn voice meetings into structured action items.",
+  //   thumbnail: "../img/thumbnails/meeting-assistant-thumbnail.png",
+  //   description:
+  //     "A prototype of a MERN stack application that records voice meetings and converts them into structured digital content — including tasks, calendar events, and notes. Integrated with OpenAI to analyze conversations for actionable insights.",
+  //   techStack: ["React", "Node.js", "MongoDB", "OpenAI", "MERN"],
+  //   srcURL: "https://github.com/yourusername/meeting-assistant", // replace with your actual GitHub URL
+  // },
+  {
+    title: "React Lazeez",
+    subTitle: "A stylish and responsive restaurant website",
+    thumbnail: "../img/thumbnails/lazeez-thumbnail.jpg",
+    description:
+      "React Lazeez is a beautifully designed frontend-only restaurant website built with React. It showcases a modern UI, engaging layout, and smooth scrolling features for users to explore food items, services, and the restaurant ambiance. Though it currently doesn’t use a backend, it's a perfect base for integrating order and menu management features in the future.",
+    techStack: ["React", "HTML", "CSS", "JavaScript"],
+    srcURL: "https://react-lazeez.vercel.app/",
   },
   {
-    title: "GitTrack",
-    subTitle: "Gain insights and strengthen your GitHub connections",
-    thumbnail: "../img/thumbnails/gittrack-thumbnail.png",
+    title: "Mavericks",
+    subTitle: "A movie booking website prototype built using only HTML and CSS.",
+    thumbnail: "../img/thumbnails/movie-thumbnail.jpg", // You can update this with a real thumbnail if you have one
     description:
-      "GitTrack - an innovative web application designed to empower GitHub users with powerful network analysis tools. With GitTrack, you can effortlessly track and analyze your followers, identifying those who are not reciprocating the follow. Take control of your GitHub presence, strengthen your connections, and optimize your network. Gain valuable insights and make informed decisions to build a strong and engaged community.",
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    srcURL: "https://gittrack.vercel.app/",
-  },
-  {
-    title: "My Battery",
-    subTitle:
-      "Simple website that display the battery status of your device and the charging status.",
-    thumbnail: "../img/thumbnails/my-battery-thumbnail.png",
-    description:
-      "My Battery is a simple and minimalistic web application that displays your battery percentage, charging status, and whether the battery is low or full. It's important to note that this is a website-based application.",
-    techStack: ["JavaScript", "HTML", "Tailwind CSS", "CSS"],
-    srcURL: "https://mybattery.vercel.app/",
-  },
-  {
-    title: "SysInfo",
-    subTitle: "Web based terminal emulator",
-    thumbnail: "../img/thumbnails/sys-info-thumbnail.png",
-    description:
-      "SysInfo is a web based terminal emulator which you can run basic commands like help, clear, battery, weather and etc.",
-    techStack: ["JavaScript", "HTML", "CSS", "Tailwind CSS"],
-    srcURL: "https://sys-info.vercel.app/",
-  },
-  {
-    title: "Project Title",
-    subTitle:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    thumbnail: "../img/projects-default.jpg",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    techStack: ["Stack"],
-    srcURL: "",
-  },
-  {
-    title: "Project Title",
-    subTitle:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    thumbnail: "../img/projects-default.jpg",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    techStack: ["Stack"],
-    srcURL: "",
-  },
-  // Add more objects for additional projectData here
+    "Mavericks is a prototype for a movie booking website, crafted using pure HTML and CSS. It features a modern layout that showcases upcoming movies, booking sections, and theater details — all styled to deliver a sleek user experience without using JavaScript. Ideal for frontend demonstrations and UI/UX concepts.",
+    techStack: ["HTML", "CSS"],
+    srcURL: "https://mavericks-omega.vercel.app/",
+  }
+  
+  
+ 
 ];
+
 
 loadContent(projectData);
 
@@ -985,7 +965,7 @@ function loadContent(projectData) {
        <div class='content'>{description}</div>
        <div class='technologies'>Tech Stack: ${techStackData}</div>
        <div class="card-buttons">
-          <a href="https://github.com/LakshanRukantha" target="_blank" class="card-btn" style="float: right; height: 2.35rem; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-regular fa-file-code"></i>Source Code</a>
+          <a href="https://github.com/Aryaman028" target="_blank" class="card-btn" style="float: right; height: 2.35rem; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-regular fa-file-code"></i>Source Code</a>
           <a href="{srcURL}" target="_blank" class="card-btn" style="float: right; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-solid fa-display"></i>View Demo</a>
       </div>`,
       data
